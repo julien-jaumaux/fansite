@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" form_content="IE=edge">
+    <meta name="viewport" form_content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="fansite.css">
+    <title>fansite</title>
+
+</head>
+
+
+
+<body>
+
+  <header>
+
+    <div class="top">
+
+        <h1>Le système solaire</h1>
+        
+        <ul>
+          <li><a href="index.html">Accueil</a></li>
+          <li><a href="fansite-soleil.html">Soleil</a></li>
+          <li><a href="fansite-mercure.html">Mercure</a></li>
+          <li><a href="fansite-vénus.html">Vénus</a></li>
+          <li><a href="fansite-terre.html">Terre</a></li>
+          <li><a href="fansite-mars.html">Mars</a></li>
+          <li><a href="fansite-jupiter.html">Jupiter</a></li>
+          <li><a href="fansite-saturne.html">saturne</a></li>
+          <li><a href="fansite-uranus.html">Uranus</a></li>
+          <li><a href="fansite-neptune.html">Neptune</a></li>
+          <li><a href="formulaire.html">Formulaire de partage</a></li>
+          <li><a href="fansite-vidéos.html">Vidéos</a></li>
+        </ul>
+    </div>
+
+    <header>
+
+      <h2 class="h2">Formulaire de participation au savoir !</h2 class="h2">
+
+    <div class="content-form">
+      <form action="#">
+        <p><i>Complétez le formulaire. Les champs marqué par </i><em>*</em> sont <em>obligatoires</em></p>
+        <fieldset>
+          <legend>Contact</legend>
+            <label for="nom">Nom <em>*</em></label>
+            <input id="nom" placeholder="Olivier Serre" autofocus="" required=""><br>
+            <label for="telephone">Portable</label>
+            <input id="telephone" type="tel" placeholder="06xxxxxxxx" pattern="06[0-9]{8}"><br>
+            <label for="email">Email <em>*</em></label>
+            <input id="email" type="email" placeholder="prenom.nom@polytechnique.edu" required="" pattern="[a-zA-Z]*.[a-zA-Z]*@polytechnique.edu"><br>
+        </fieldset>
+        <fieldset>
+          <legend>Information personnelles</legend>
+            <label for="age">Age</label>
+            <input id="age" type="number" placeholder="xx" pattern="[0-9]{2}" required=""><br>
+            <label for="sexe">Sexe</label>
+            <select id="sexe">
+              <option value="F" name="sexe">Femme</option>
+              <option value="H" name="sexe">Homme</option>
+            </select><br>
+            <label for="comments">Quelles connaissances ou découvertes voulez vous partager?</label>
+            <textarea id="comments"></textarea>
+        </fieldset>
+       
+        <fieldset>
+          <legend>Dîtes nous quelles planètes vous préférez</legend>
+          <label for="Terre"><input id="Terre" type="checkbox" name="planète" value="Terre"> Terre</label>
+          <label for="Mercure"><input id= "Mercure"type="checkbox" name="planète" value="Mercure">Mercure</label>
+          <label for="Vénus"><input id="Vénus"type="checkbox" name= "planète"value="Vénus"> Vénus</label>
+          <label for="Mars"><input id="Mars" type="checkbox" name="planète" value="Mars"> Mars</label>
+          <label for="Jupiter"><input id="Jupiter"type="checkbox" name="planète" value="Jupiter"> Jupiter</label>
+          <label for="Saturne"><input id="Saturne" type="checkbox" name="planète" value="Saturne">Saturne </label>
+          <label for="Neptune"><input id="Neptune" type="checkbox" name="planète" value="Neptune">Neptune </label>
+          <label for="Uranus"><input id= "Uranus"type="checkbox" name="planète" value="Uranus">Uranus</label>
+        </fieldset>     
+        <button><input type="submit" value="Soummettre"></button>
+      </form>
+    
+      <div class="vidéo">
+      <iframe width="300" height="300" src="https://www.youtube.com/embed/mtXxv57HYyg" title="YouTube video player" frameborder="0" allow="accelerometer; auform_toplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      <iframe width="300" height="300" src="https://www.youtube.com/embed/1DIO_RxhGy4?start=4" title="YouTube video player" frameborder="0" allow="accelerometer; auform_toplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+  </div>
+    <footer>
+      <a href="fansite-vidéos.html"><h3>Vidéos</h3></a>
+      <a href="https://www.youtube.com/@BaladeMentale"><h3>BaladeMentale</h3></a>
+      <a href="https://cnes.fr/fr/"><h3>Contact C.N.E.S</h3></a>
+      <a href="https://github.com/julien-jaumaux"><h3>github</h3></a>
+    </footer>
+
+</body>
+
+
+</html>
